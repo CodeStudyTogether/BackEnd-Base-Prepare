@@ -5,3 +5,8 @@ pkg 编译后生成的文件（比如：.a）
 bin 编译后生成的可执行文件（为了方便，可以把此目录加入到 $PATH 变量中，如果有多个gopath，那么使用${GOPATH//://bin:}/bin添加所有的bin目录）
 
 go语言有一个获取远程包的工具就是go get，目前go get支持多数开源社区(例如：github、googlecode、bitbucket、Launchpad)
+
+go run: 编译并运行Go程序                                                        
+go version 查看go当前的版本
+go env 查看当前go的环境变量
+go list 列出当前全部安装的package                                                       
