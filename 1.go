@@ -12,3 +12,5 @@ Golang引入了goroutine概念，它是一种比线程更”轻盈“的协程�
 Golang自带GC，不需要像C++那样使用delete或者free()来释放内存。
 
 正如 “21 世纪的 C 语言” 这句话所说，Go 语言并不是凭空而造的，而是和 C++、Java 和 C# 一样属于 C 系。
+
+https://www.youtube.com/watch?v=GiDs2JHWjwc&list=PL9avoKyUyEuy6neui9YrtBQtbbKx0y_y5
