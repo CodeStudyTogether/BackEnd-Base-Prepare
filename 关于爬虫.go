@@ -10,3 +10,8 @@ https://github.com/anaskhan96/soup
 提升效率的方法：串行->并发->并行->分布式。
 
 验证码可以防止爬虫
+
+江苏快三：https://api.api68.com/lotteryJSFastThree/getBaseJSFastThree.do?issue=&lotCode=10007
+广东11选5：https://api.api68.com/ElevenFive/getElevenFiveInfo.do?issue=&lotCode=10006
+广东快乐十分：https://api.api68.com/klsf/getLotteryInfo.do?issue=&lotCode=10005
+福彩3D：https://api.api68.com/QuanGuoCai/getLotteryInfo1.do?issue=&lotCode=10041
