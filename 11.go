@@ -6,3 +6,5 @@ map 是一种特殊的数据结构：一种元素对（pair）的无序集合，
 map 这种数据结构在其他编程语言中也称为字典（Python）、hash 和 HashTable 等。
 
 不要使用 new，永远用 make 来构造 map。
+
+go面向接口
