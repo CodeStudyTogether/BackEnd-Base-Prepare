@@ -1,1 +1,7 @@
+命令模式
 
+命令模式(Command Pattern)：将一个请求封装为一个对象，从而让我们可用不同的请求对客户进行参数化；对请求排队或者记录请求日志，以及支持可撤销的操作。命令模式是一种对象行为型模式，其别名为动作(Action)模式或事务(Transaction)模式。
+
+我们在Android开发中使用的Runnable(在java.lang包下)也是命令模式应用之一
+
+Android底层逻辑对事件的转发处理就用到了命令模式。Application Framework（应用程序框架层）中PackageManagerService类（包管理部分）也用到了命令模式。PackageManagerService是Android系统的Service之一，主要功能是实现对应用包的解析、管理、卸载等操作。
