@@ -7,3 +7,5 @@
 https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/13.0.md
 
 https://juejin.im/post/5b6911fc5188251afc25a352  交叉编译
+
+平时提交一些个人的学习笔记供自己学习。
