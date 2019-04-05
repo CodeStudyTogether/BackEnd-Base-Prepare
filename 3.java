@@ -5,3 +5,15 @@
 我们在Android开发中使用的Runnable(在java.lang包下)也是命令模式应用之一
 
 Android底层逻辑对事件的转发处理就用到了命令模式。Application Framework（应用程序框架层）中PackageManagerService类（包管理部分）也用到了命令模式。PackageManagerService是Android系统的Service之一，主要功能是实现对应用包的解析、管理、卸载等操作。
+
+Java项目开发的项目需要运行在Tomcat等服务器容器中，故首先要学习Tomcat的组件Servlet的使用，Servlet的作用是向客户端提供接口。但实际项目开发中很少会直接使用Servlet，而是使用封装的框架。我目前学习的框架有两个，一个是封装Servlet的SpringMVC，另一个是封装Filter的Strus2
+
+JPA的全称是Java Persistence AP，意思是java持久层API。JPA，并不是一个框架，而是一个协议，实现思想是ORM，即对象关系映射，即把数据库字段与业务实体类对象的字段做一个关系映射，把对数据库的操作变成面向对象的操作，不需要些sql语句。
+
+MyBatis框架：它对JDBC的操作数据库的过程进行封装，使开发者只需要关注 SQL 本身，而不需要花费精力去处理例如注册驱动、创建connection、创建statement、手动设置参数、结果集检索等jdbc繁杂的过程代码。MyBatis是我目前感觉最好用的框架，比起JPA框架它需要些sql语句，但它更随意，不受太多限制，尤其在多表操作时完全优于JPA框架。
+
+Java项目是服务端项目，此时的JVM比Android项目负载大，所以需要JVM的参数配置。
+
+另外我们公司Java项目有6个，有5个都是前后端不分离的，对于这种java项目还需要学习JSP，HTML，CSS，JavaScript等知识。
+
+除以上之外Java开发还需要考虑并发量，集群，分布式，进程间通信，服务端稳定性等等方面。要想成为一个合格的Java开发者，仍然任重道远。
