@@ -61,3 +61,10 @@ int[] Merge(Node head1 , Node head2) {
 https://blog.csdn.net/biezhihua/article/details/79571917
 
 ^=符号
+
+二叉查找树（BST：Binary Search Tree）是一种特殊的二叉树，它改善了二叉树节点查找的效率。二叉查找树有以下性质：
+
+对于任意一个节点 n，
+
+其左子树（left subtree）下的每个后代节点（descendant node）的值都小于节点 n 的值；
+其右子树（right subtree）下的每个后代节点的值都大于节点 n 的值。
